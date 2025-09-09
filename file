@@ -1,0 +1,9 @@
+
+  app:
+    build:
+      context: ./src/api
+      dockerfile: Dockerfile
+    networks:
+      - mynet
+    ports:
+      - 8082:8082

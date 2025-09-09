@@ -1,0 +1,31 @@
+
+--EXECUÇÃO DO DOCKER COMPOSE
+
+docker compose up -d --build 
+
+--Help
+dotnet sln -h
+
+
+
+--Cria a nova solution de nome Api
+dotnet new sln -n Api
+
+
+
+--Lista os comandos de projetos que podem ser criados
+dotnet new -l
+
+
+cria pasta com mkdir e entra com cd, nome da pasta src
+mkdir src
+cd src
+
+
+dotnet new webapi -n api
+
+cd ..
+
+dotnet sln add src/api
+
+dotnet build
