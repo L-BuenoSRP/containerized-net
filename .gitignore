@@ -1,0 +1,281 @@
+# .NET Core/.NET Standard específico para src/api
+src/api/**/*.swp
+src/api/**/*.*~
+src/api/**/project.lock.json
+src/api/**/.DS_Store
+src/api/**/*.pyc
+
+# Visual Studio Code
+src/api/**/.vscode
+
+# User-specific files
+src/api/**/*.suo
+src/api/**/*.user
+src/api/**/*.userosscache
+src/api/**/*.sln.docstates
+
+# Build results
+src/api/**/[Dd]ebug/
+src/api/**/[Dd]ebugPublic/
+src/api/**/[Rr]elease/
+src/api/**/[Rr]eleases/
+src/api/**/x64/
+src/api/**/x86/
+src/api/**/build/
+src/api/**/bld/
+src/api/**/[Bb]in/
+src/api/**/[Oo]bj/
+src/api/**/msbuild.log
+src/api/**/msbuild.err
+src/api/**/msbuild.wrn
+
+# Pastas bin e obj específicas
+src/api/bin/
+src/api/obj/
+
+# Visual Studio
+src/api/**/.vs/
+
+# Rider
+src/api/**/.idea/
+
+# NuGet Packages
+src/api/**/*.nupkg
+# The packages folder can be ignored because of Package Restore
+src/api/**/**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!src/api/**/**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!src/api/**/**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+src/api/**/*.nuget.props
+src/api/**/*.nuget.targets
+
+# Microsoft Azure Build Output
+src/api/**/csx/
+src/api/**/*.build.csdef
+
+# Microsoft Azure Emulator
+src/api/**/ecf/
+src/api/**/rcf/
+
+# Windows Store app package directories and files
+src/api/**/AppPackages/
+src/api/**/BundleArtifacts/
+src/api/**/Package.StoreAssociation.xml
+src/api/**/_pkginfo.txt
+src/api/**/*.appx
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+src/api/**/*.[Cc]ache
+# but keep track of directories ending in .cache
+!src/api/**/*.[Cc]ache/
+
+# Others
+src/api/**/ClientBin/
+src/api/**/~$*
+src/api/**/*~
+src/api/**/*.dbmdl
+src/api/**/*.dbproj.schemaview
+src/api/**/*.jfm
+src/api/**/*.pfx
+src/api/**/*.publishsettings
+src/api/**/orleans.codegen.cs
+
+# SQL Server files
+src/api/**/*.mdf
+src/api/**/*.ldf
+src/api/**/*.ndf
+
+# Business Intelligence projects
+src/api/**/*.rdl.data
+src/api/**/*.bim.layout
+src/api/**/*.bim_*.settings
+src/api/**/*.rptproj.rsuser
+
+# Microsoft Fakes
+src/api/**/FakesAssemblies/
+
+# Local History for Visual Studio
+src/api/**/.localhistory/
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+src/api/**/MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+src/api/**/.ionide/
+
+# Tabs Studio
+src/api/**/*.tss
+
+# Telerik's JustMock configuration file
+src/api/**/*.jmconfig
+
+# BizTalk build output
+src/api/**/*.btp.cs
+src/api/**/*.btm.cs
+src/api/**/*.odx.cs
+src/api/**/*.xsd.cs
+
+# OpenCover UI analysis results
+src/api/**/OpenCover/
+
+# Azure Stream Analytics local run output
+src/api/**/ASALocalRun/
+
+# MSBuild Binary and Structured Log
+src/api/**/*.binlog
+
+# NVidia Nsight GPU debugger configuration file
+src/api/**/*.nvuser
+
+# MFractors (Xamarin productivity tool) working folder
+src/api/**/.mfractor/
+
+# Local .NET CLI tools
+src/api/**/.dotnet/
+
+# Rider
+src/api/**/.idea/
+src/api/**/*.sln.iml
+
+# User-specific files
+src/api/**/*.rsuser
+
+# Mono auto generated files
+src/api/**/mono_crash.*
+
+# VS Code directories
+src/api/**/.vscode/
+!src/api/**/.vscode/settings.json
+!src/api/**/.vscode/tasks.json
+!src/api/**/.vscode/launch.json
+!src/api/**/.vscode/extensions.json
+src/api/**/*.code-workspace
+
+# Local History for Visual Studio Code
+src/api/**/.history/
+
+# Windows Installer files from build outputs
+src/api/**/*.cab
+src/api/**/*.msi
+src/api/**/*.msix
+src/api/**/*.msm
+src/api/**/*.msp
+
+# JetBrains Rider
+src/api/**/*.sln.iml
+src/api/**/.idea/
+src/api/**/rider.project.restore.info
+
+# ASP.NET Scaffolding
+src/api/**/ScaffoldingReadMe.txt
+
+# .NET Core
+src/api/**/project.fragment.lock.json
+src/api/**/artifacts/
+
+# StyleCop
+src/api/**/StyleCopReport.xml
+
+# Files built by Visual Studio
+src/api/**/*_i.c
+src/api/**/*_p.c
+src/api/**/*_h.h
+src/api/**/*.ilk
+src/api/**/*.meta
+src/api/**/*.obj
+src/api/**/*.iobj
+src/api/**/*.pch
+src/api/**/*.pdb
+src/api/**/*.ipdb
+src/api/**/*.pgc
+src/api/**/*.pgd
+src/api/**/*.rsp
+src/api/**/*.sbr
+src/api/**/*.tlb
+src/api/**/*.tli
+src/api/**/*.tlh
+src/api/**/*.tmp
+src/api/**/*.tmp_proj
+src/api/**/*_wpftmp.csproj
+src/api/**/*.log
+src/api/**/*.vspscc
+src/api/**/*.vssscc
+src/api/**/.builds
+src/api/**/*.pidb
+src/api/**/*.svclog
+src/api/**/*.scc
+
+# Chutzpah Test files
+src/api/**/_Chutzpah*
+
+# Visual C++ cache files
+src/api/**/ipch/
+src/api/**/*.aps
+src/api/**/*.ncb
+src/api/**/*.opendb
+src/api/**/*.opensdf
+src/api/**/*.sdf
+src/api/**/*.cachefile
+src/api/**/*.VC.db
+src/api/**/*.VC.VC.opendb
+
+# Visual Studio profiler
+src/api/**/*.psess
+src/api/**/*.vsp
+src/api/**/*.vspx
+src/api/**/*.sap
+
+# Visual Studio Trace Files
+src/api/**/*.e2e
+
+# TFS 2012 Local Workspace
+src/api/**/$tf/
+
+# Guidance Automation Toolkit
+src/api/**/*.gpState
+
+# ReSharper is a .NET coding add-in
+src/api/**/_ReSharper*/
+src/api/**/*.[Rr]e[Ss]harper
+src/api/**/*.DotSettings.user
+
+# TeamCity is a build add-in
+src/api/**/_TeamCity*
+
+# DotCover is a Code Coverage Tool
+src/api/**/*.dotCover
+
+# AxoCover is a Code Coverage Tool
+src/api/**/.axoCover/*
+!src/api/**/.axoCover/settings.json
+
+# Coverlet is a free, cross platform Code Coverage Tool
+src/api/**/coverage*.json
+src/api/**/coverage*.xml
+src/api/**/coverage*.info
+
+# Visual Studio code coverage results
+src/api/**/*.coverage
+src/api/**/*.coveragexml
+
+# Click-Once directory
+src/api/**/publish/
+
+# Publish Web Output
+src/api/**/*.[Pp]ublish.xml
+src/api/**/*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+src/api/**/*.pubxml
+src/api/**/*.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+src/api/**/PublishScripts/
+
+# Docker files
+src/api/**/*.env
